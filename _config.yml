@@ -1,0 +1,73 @@
+title: OptaTours
+email: jacob.silva0123@gmail.com
+description: >
+  I am currently a Freelance Technology Contractor/Consultant
+  in the Tourism Industry.  My background is Computer Science
+  and this is a blog about my thoughts on
+  Operations Research related to the Tourism Industry...
+baseurl: ""
+url: "https://optatours.com"
+timezone: America/Chicago
+
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author: Jacob
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      sidebar:
+          nav: "main"
+
+category-archive:
+  type: liquid
+  path: /categories/
+
+tag-archive:
+  type: liquid
+  path: /tags/
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+
+# Theme
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin : default  # "default" "air", "contrast", "dark", "dirt", "mint", "sunrise"
+
+# Build settings
+plugins:
+  - jekyll-feed
+include: ["_pages"]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Analytics
+analytics:
+  provider: "google-universal"
+  google:
+    tracking_id: UA-109251734-1

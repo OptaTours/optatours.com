@@ -1,0 +1,7 @@
+main:
+  - title: "Products"
+    url: /products/index.html
+  - title: "Onsite Training"
+    url: /onsite-training.html
+  - title: "Blog"
+    url: /blog/index.html

@@ -1,0 +1,17 @@
+reset;
+
+option ampl_include 'C:\Users\Jacob\Documents\Work\Web\optatours.com\_includes\optimize-tour-routes-for-tour-operators-part-1\';
+
+model 'tour_headers.mod';
+model 'tour_objective.mod';
+model 'tour_constraints.mod';
+data  'tour_resources.dat';
+
+option solver gurobi;
+solve ;
+
+option display_1col 0;
+
+display X;
+display Y;
+display TourOperationsCost;

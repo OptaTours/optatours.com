@@ -1,0 +1,26 @@
+set Tours := Tour01 Tour02 Tour03 Tour04 Tour05;
+set TimeBlocks := "8-9" "9-10" "10-11" "11-12" "12-13" "13-14" "14-15" "15-16" "16-17";
+
+set Guides := Guide01 Guide02 Guide03 Guide04 Guide05 Guide06 Guide07 Guide08 Guide09 Guide10;
+param GuideAvailabilities :
+            "8-9" "9-10" "10-11" "11-12" "12-13" "13-14" "14-15" "15-16" "16-17" :=
+    Guide01  1     1      1       0       0       0       0       0       0
+    Guide02  1     1      1       0       0       0       0       0       0
+    Guide03  1     1      1       0       0       0       0       0       0
+    Guide04  1     1      1       1       0       0       0       0       0
+    Guide05  1     1      1       1       1       1       0       0       0
+    Guide06  1     1      1       1       1       1       1       0       0
+    Guide07  0     0      0       0       1       1       1       0       0
+    Guide08  0     0      0       0       1       1       1       1       1
+    Guide09  0     0      0       0       0       0       1       1       1
+    Guide10  0     0      0       0       0       0       1       1       1
+    ;
+    
+param Bookings :
+            "8-9" "9-10" "10-11" "11-12" "12-13" "13-14" "14-15" "15-16" "16-17" :=
+    Tour01    72    61     49       9       0       0       0       0        0
+    Tour02    11    33     16      18      17       8       0       0        0
+    Tour03     0     0      9      15      13      10       6       0        0
+    Tour04     0     0      0       0      23       0       0      20       31
+    Tour05     0     0      0       0       0       9      14      10       19
+    ;

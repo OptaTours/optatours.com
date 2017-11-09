@@ -1,0 +1,19 @@
+Jacob:
+  name: Jacob
+  bio: I'm a Tech Nomad with 10+ years of technology development experience.
+  location: "Austin, Texas"
+  #uri: "https://linkedin.com/in/jacobsilva"
+  email: "jacob.silva0123@gmail.com"
+  linkedin: jacobsilva
+  instagram: silva_jacob
+  github: Funkmyster
+Charley:
+  name: Charley
+  bio:
+  location: "Cibolo, Texas"
+  linkedin:
+Joshua:
+  name: Joshua
+  bio:
+  location: "Austin, Texas"
+  linkedin: joshuasilva1
