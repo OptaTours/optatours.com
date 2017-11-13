@@ -2,6 +2,7 @@
 title:  "Competitor Analysis for Tour Operators"
 excerpt: "Sometimes it helps to analyze your competition. Here's one way of automating this..."
 page_code_ref: competitor-analysis-for-tour-operators-part-1
+type: blog
 
 date:   2017-11-04 10:09:16 +0100
 categories: marketing optimization

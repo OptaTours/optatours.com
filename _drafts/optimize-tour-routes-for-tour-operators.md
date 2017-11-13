@@ -2,6 +2,7 @@
 title:  "Optimize Tour Routes with Mixed Integer/Linear Programming"
 excerpt: "Automate Tour Routes with Clark-Wright Heuristics and Linear Programming"
 page_code_ref: optimize-tour-routes-for-tour-operators-part-1
+type: blog
 
 date:   2017-11-04 10:09:16 +0100
 categories: transportation optimization

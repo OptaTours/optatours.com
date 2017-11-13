@@ -2,6 +2,7 @@
 title:  "Looking at Revenue Management & Tour Product Mix with Linear Programming"
 excerpt: "Simplify Revenue Management with Linear Programming"
 page_code_ref: revenue-management-for-tour-operators-part-1
+type: blog
 
 date:   2017-11-07 10:00:00 +0100
 categories: marketing revenue-management

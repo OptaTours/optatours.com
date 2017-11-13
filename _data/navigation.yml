@@ -3,5 +3,7 @@ main:
     url: /products/index.html
   - title: "Onsite Training"
     url: /onsite-training.html
+  - title: "Reviews"
+    url: /reviews/index.html
   - title: "Blog"
     url: /blog/index.html

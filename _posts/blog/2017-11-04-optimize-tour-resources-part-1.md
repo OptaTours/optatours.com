@@ -2,6 +2,7 @@
 title:  "Cut Tour Costs and Automate Scheduling with Mixed Integer / Linear Programming"
 excerpt: "Sometimes it's just too difficult to optimize how many tour runnings you should allocate to the schedule . Here's a cool technique you can try!"
 page_code_ref: optimize-tour-resources-part-1
+type: blog
 
 categories: tourism optimization
 tags: milp-programming linear-programming integer-programming resource-allocation auto-schedule ampl

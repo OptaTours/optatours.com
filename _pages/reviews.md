@@ -1,10 +1,10 @@
 ---
-title: Blog
-permalink: /blog/index.html
+title: Reviews
+permalink: /reviews/index.html
 ---
 <ul>
     {% for post in site.posts %}
-    {% if post.type == 'blog' %}
+    {% if post.type == 'review' %}
     <li>
         <a href="{{ post.url }}">
             {{ post.title }}

@@ -1,6 +1,7 @@
 ---
 title:  "JAM Stack for your Tech Stack"
 excerpt: ""
+type: blog
 
 date:   2017-11-04 10:09:16 +0100
 categories: tourism optimization marketing
