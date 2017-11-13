@@ -1,6 +1,13 @@
 main:
   - title: "Products"
     url: /products/index.html
+    children:
+      - title: "Collaborative A.I."
+        url: /collaborative-ai/index.html
+      - title: "Integrated Intelligence"
+        url: /integrated-intelligence/index.html
+      - title: "Predictive Analytics"
+        url: /predictive-analytics/index.html
   - title: "Onsite Training"
     url: /onsite-training.html
   - title: "Reviews"
