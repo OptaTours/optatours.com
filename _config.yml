@@ -61,6 +61,7 @@ include: ["_pages", "_posts", "_reviews"]
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor
 compress_html:
   clippings: all
   ignore:
