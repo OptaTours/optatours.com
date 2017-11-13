@@ -22,7 +22,7 @@ jobs:
           command: |
             bundle install --jobs=4 --retry=3 --path vendor/bundle
       
-      - test:
+      - run:
           name: Test
           command: |
             bundle exec htmlproofer ./_site --check-html --disable-external
