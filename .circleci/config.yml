@@ -35,4 +35,4 @@ jobs:
       - deploy:
           name: Deploy
           command: |
-            git push --set-upstream origin production
+            git push --set-upstream origin master:production
