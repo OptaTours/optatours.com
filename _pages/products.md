@@ -1,6 +1,6 @@
 ---
 title: Analytics & Automation Products
-permalink: /products.html
+permalink: /products/index.html
 excerpt: ""
 ---
 
