@@ -72,3 +72,7 @@ analytics:
   provider: "google-universal"
   google:
     tracking_id: UA-109251734-1
+
+# Feed
+feed:
+  path: atom.

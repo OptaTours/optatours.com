@@ -37,7 +37,7 @@ feature_collaborative_ai:
   - image_path: /assets/images/robot-businessman-handshake-innovation-technology_optimized.jpg
     alt: "Collaborative A.I."
     title: "Collaborative A.I."
-    excerpt: "Discover what's possible when ChatBots and Prescriptive Analytics works seamlessly with human capital."
+    excerpt: "Discover what's possible when ChatBots and Prescriptive Analytics work seamlessly with human capital."
     url: "/collaborative-ai/index.html"
     btn_label: "Read More"
     btn_class: "btn--inverse"
@@ -70,3 +70,16 @@ feature_predictive_analytics:
 {% include feature_row id="feature_integrated_intelligence" type="right" %}
 
 {% include feature_row id="feature_predictive_analytics" type="center" %}
+
+
+<center>
+<iframe
+  src="https://docs.google.com/forms/d/e/1FAIpQLScOBx-XZCkQtQI4kDhnTDTzCbpjzhmQBidhXSvAWcv2ssssIw/viewform?embedded=true" 
+  width="760"
+  height="1200"
+  frameborder="0"
+  marginheight="0"
+  marginwidth="0">
+  Loading...
+</iframe>
+</center>

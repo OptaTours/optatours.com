@@ -1,6 +1,6 @@
 ---
-title:  "Cut Tour Costs and Automate Scheduling with Mixed Integer / Linear Programming"
-excerpt: "Sometimes it's just too difficult to optimize how many tour runnings you should allocate to the schedule . Here's a cool technique you can try!"
+title:  "Cut Tour Costs and Automate Scheduling with Mixed Integer / Linear Programming."
+excerpt: "Sometimes it's just too difficult to optimize how many tour runnings you should allocate to the schedule. Here's a cool technique you can try!"
 page_code_ref: optimize-tour-resources-part-1
 type: blog
 
@@ -11,36 +11,32 @@ tags: milp-programming linear-programming integer-programming resource-allocatio
 {% include toc %}
 
 # Intro
-Sometimes it's just too difficult to optimize how many tour
-runnings you should allocate to the schedule for your client
-bookings. Here's a cool technique you can try out to help
+Sometimes it's just too difficult to optimize the number of tour-runnings you should allocate for the schedule of your client
+Bookings. Here's a cool technique you can try out to help
 automate the management of this textbook resource-allocation
 problem.
 
 ## Scenario
 Imagine the company has hourly runnings of 5 different
-tours with only 10 guides to serve hundreds of clients
-who booked different tour times throughout the day.
+tours with only ten guides to serve hundreds of clients. And also imagine many of these clients have booked different tour times throughout the day.
 That's a lot of work! Let's try to compute the least expensive
 way to run these tours.
 
 ## The Logic! Mixed Integer / Linear Programming
-Mixed Integer / Linear Programming involves using an
-algebraic modeling language to define an objective you'd
-like to optimize for. An example of this would be to
+Mixed Integer / Linear Programming involves using an algebraic modeling language to define an objective you'd like to optimize. An example of this would be
 calculate the variables required to maximize profit,
 or in our case, calculate the number of tour runnings
 to minimize cost.
 
-This is followed by defining a number of integer or linear
-constraints. Examples of constraints could be as simple
+All of this will then be followed by defining any number of integer or linear
+Constraints. Examples of constraints could be as simple
 as setting the maximum number of clients that are allowed
 on a tour or as complicated as committing to an HR strategy that
 attempts to appeal to Tour Guides by promising a minimum
-number of tours if they contract with the company.
+amount of tours if they contract with the company.
 
-All this is completed by sending the newly designed data
-model to a solver to compute. A good solver can easily
+All this is will then be completed by sending the newly designed Data
+Model to a solver to compute. A good solver can easily
 compute a model with hundreds of thousands of constraints
 (this is useful for optimizing resources for individualized
 custom tours).
@@ -49,9 +45,9 @@ custom tours).
 This post assumes at least some familiarity with AMPL.
 
 ## Data
-For this example, the company has 5 different
-tours that can potentially run every hour. We also
-have 10 tour guide contractors on staff and
+For this example, the company has five different
+Tours that can potentially run every hour. We also
+have ten tour guide contractors on staff and
 their work schedule/availability is all defined in this
 data file:
 
@@ -67,7 +63,7 @@ For our example, a tour cost $50 USD to run and a tour
 guide charges us $100 USD to work the tour.
 
 In our market, 23 clients on a tour are the maximum number
-of bodies we can effectively handle on a tour while maintaining
+of bodies, we can effectively handle a tour while maintaining
 our 5-star rating on a typical tour rating website.
 
 We define all this in a model file as so:
